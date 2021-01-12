@@ -7,6 +7,28 @@
 	background: #24252A;
 }
 
+.hero{
+	height: 320px; padding: 19px 25px;
+	background: rgb(255, 255, 255);
+	font-family: "Chivo", sans-serif;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero div{
+	cursor: auto;
+}
+div.heroWrap, h1, p {
+  background-color: rgba(255, 255, 255, 0);
+  color: #24252A;
+}
+
+body {
+	background: #ccc;
+}
+
 li, a, button {
 	font-family: "Chivo", sans-serif;
 	font-weight: 500;
@@ -47,6 +69,20 @@ header {
 
 .navlinks li a {
 	transition: all 0.3s ease 0s;
+}
+
+.active {
+       font-family: "Chivo", sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #edf0f1;
+	text-decoration: solid underline;
+  text-decoration-color: #F27979;
+	text-decoration-thickness: 3px;
+}
+
+.navlinks li a:active {
+	font-weight: bold;
 }
 
 .navlinks li a:hover {
